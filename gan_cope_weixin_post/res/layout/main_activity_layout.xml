@@ -10,8 +10,11 @@
         android:inputType="textMultiLine"
         android:singleLine="false"
    		android:gravity="left|top"
+   		android:hint="@string/main_post_content_hint"
         android:minLines="3" 
-        android:maxLines="6"/>
+        android:padding="10px" 
+        android:maxLines="6"
+        android:background="@drawable/main_post_content_edittext_shape"/>
 	
     <Button 	android:id="@+id/main_test_button"
         android:layout_width="match_parent"
