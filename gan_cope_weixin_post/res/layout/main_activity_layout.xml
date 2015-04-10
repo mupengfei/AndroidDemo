@@ -3,7 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-
+	<TextView android:layout_margin="10dp"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:text="我的爆料"
+	    android:textStyle="bold"
+	    android:textSize="20dp"/>
     <EditText	android:id="@+id/main_post_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,7 +19,16 @@
         android:minLines="3" 
         android:padding="10px" 
         android:maxLines="6"
+        android:layout_margin="10dp"
         android:background="@drawable/main_post_content_edittext_shape"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="300字"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 	
     <Button 	android:id="@+id/main_test_button"
         android:layout_width="match_parent"
